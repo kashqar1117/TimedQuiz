@@ -19,7 +19,9 @@ h1{
     height: 1000px;
     display:flex;
     justify-content: center;
-}
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;}
 
 
 .btn{
@@ -29,11 +31,23 @@ h1{
     padding: 10px;
     border-radius: 4px;
 }
+.btn:hover {
+    cursor: cell;
+    background-color: powderblue;
+  transition: background-color .5s;
+    
+}
 #highscore-btn{
     background-color: blueviolet;
     color: cornsilk;
     text-decoration: none;
+    margin-left: 10px;
     padding: 10px;
     border-radius: 4px;
 }
-   
+#highscore-btn:hover {
+    cursor: cell;
+    background-color: powderblue;
+  transition: background-color .5s;
+    
+}   
